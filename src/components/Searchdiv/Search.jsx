@@ -1,7 +1,8 @@
 import React from 'react'
-import { AiOutlineCloseCircle, AiOutlineSearch } from 'react-icons/ai'
-import { BsHouseDoor } from 'react-icons/Bs'
-import { CiLocationOn } from 'react-icons/ci'
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import CancelOutlinedIcon from '@mui/icons-material/CancelOutlined';
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 
 const Search = () => {
   return (
@@ -11,26 +12,26 @@ const Search = () => {
         [10px] bg-white p-5 shadow-lg shadow-greyIsh-700'>
 
           <div className='flex gap-2 items-center'>
-            <AiOutlineSearch className='text-[25px] icon' />
+            <SearchOutlinedIcon className='text-[25px] icon' />
             <input type='text' className='bg-transparent text-blue-500
               focus:outline-none w-[100%]' placeholder='Search jobs here....'/>
-            <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6] 
+            <CancelOutlinedIcon className='text-[30px] text-[#a5a6a6] 
                 hover:text-textColor icon' />
           </div>
           
           <div className='flex gap-2 items-center'>
-            <BsHouseDoor className='text-[25px] icon' />
+            <HomeOutlinedIcon className='text-[25px] icon' />
             <input type='text' className='bg-transparent text-blue-500
               focus:outline-none w-[100%]' placeholder='Search by city here....'/>
-            <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6] 
+            <CancelOutlinedIcon className='text-[30px] text-[#a5a6a6] 
                 hover:text-textColor icon' />
           </div>
 
           <div className='flex gap-2 items-center'>
-            <CiLocationOn className='text-[25px] icon' />
+            <LocationOnOutlinedIcon className='text-[25px] icon' />
             <input type='text' className='bg-transparent text-blue-500
               focus:outline-none w-[100%]' placeholder='Search by location here....'/>
-            <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6] 
+            <CancelOutlinedIcon className='text-[30px] text-[#a5a6a6] 
                 hover:text-textColor icon' />
           </div>
           <button className='bg-blueColor h-full p-5 px-10 rounded-[10px] text-white
