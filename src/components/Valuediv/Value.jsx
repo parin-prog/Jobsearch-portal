@@ -1,4 +1,7 @@
 import React from 'react'
+import simplicity from '/assets/simplicity.png'
+import simp1 from '/assets/simp1.svg'
+import letterS from '/assets/letter-s.png'
 
 const Value = () => {
   return (
@@ -11,7 +14,7 @@ const Value = () => {
           <div className='flex items -center gap-3'>
             <div className='imgDiv p-[4px] rounded-[.8rem] bg-[#dedef8] h-[40px]
              w-[40px] flex items-center justify-center'>
-              <img src='' alt='' className='w-[70%]' />
+              <img src={simp1} alt='' className='w-[70%]' />
             </div>
 
             <span className='font-semibold text-textColor text-[18px]'>
@@ -28,7 +31,7 @@ const Value = () => {
           <div className='flex items -center gap-3'>
             <div className='imgDiv p-[4px] rounded-[.8rem] bg-[#f7d1e1] h-[40px]
              w-[40px] flex items-center justify-center'>
-              <img src='' alt='' className='w-[70%]' />
+              <img src={simplicity} alt='' className='w-[70%]' />
             </div>
 
             <span className='font-semibold text-textColor text-[18px]'>
@@ -46,7 +49,7 @@ const Value = () => {
           <div className='flex items -center gap-3'>
             <div className='imgDiv p-[4px] rounded-[.8rem] bg-[#f3f2ad] h-[40px]
              w-[40px] flex items-center justify-center'>
-              <img src='' alt='' className='w-[70%]' />
+              <img src={letterS} alt='' className='w-[70%]' />
             </div>
 
             <span className='font-semibold text-textColor text-[18px]'>
